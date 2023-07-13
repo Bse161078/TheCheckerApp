@@ -72,7 +72,7 @@ class Btn extends StatelessWidget {
                 children: [
                   if(iconData != null)
                     Icon(iconData, color: iconColor ?? Colors.white).paddingOnly(right: direction == TextDirection.ltr ? 6 : 0, left: direction == TextDirection.rtl ? 6 : 0) ,
-                  Text(label, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w400, fontSize: 14),),
+                  Text(label,overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w400, fontSize: 14),),
                 ],
               ),
             ),

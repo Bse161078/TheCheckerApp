@@ -26,6 +26,8 @@ class MaterialsController extends Basic {
       ApiResponse result = await repository.materials();
       final list = result.body['data']['materials'];
       materialList.value = Material.fromJsonList(list);
+      print(
+         "${ materialList.value}Values");
       log(this, 'material list ${list.length}');
     } catch (e) {
       log(this, e);
@@ -45,8 +47,11 @@ class MaterialsController extends Basic {
       if (orderHotelManagement.value) {
         supplier = 'hotel';
       }
+
+
       ApiResponse result = await repository.setMaterial(materialList, supplier);
       log(this, 'material set ${result.status}');
+
       Get.back();
       Get.back();
       Toast.success('request_submitted'.tr, 'order'.tr);

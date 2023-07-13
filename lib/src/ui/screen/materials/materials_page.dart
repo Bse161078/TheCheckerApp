@@ -141,6 +141,8 @@ class Materials extends GetView<MaterialsController> {
                         type: CheckerType.Radio,
                         longText: false,
                         onChanged: (value) {
+
+
                           controller.orderHotelManagement.value = true;
                           controller.orderCleaningCompany.value = false;
                         })),
