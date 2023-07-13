@@ -29,6 +29,7 @@ class Pref {
   String get hotelLogoCheckerVal =>
       _instance.getString(Pref.hotelLogoChecker) ?? '';
 
+
   getString(String key) {
     return _instance.getString(key) ?? '';
   }

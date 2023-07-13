@@ -30,7 +30,9 @@ class DashboardController extends Basic {
 
       final userAvatar = result.body['data']['user']['avatar'];
       print("userAvatar is $userAvatar");
-      Pref.to.setString(Pref.userAvatar, userAvatar);
+     var  userImage= Pref.to.setString(Pref.userAvatar, userAvatar);
+
+      print("userImage is $userAvatar");
 
       var hotelLogo = result.body['data']['user']['hotel']['avatar'];
       print("hotelLogo is $hotelLogo");

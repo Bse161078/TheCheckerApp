@@ -27,6 +27,7 @@ class AuthController extends Basic {
       ApiResponse result = await repository.login(userName, pass);
 
       print("$this, Inside Auth Controller, Login Response ${result.body}");
+      print("Response body :: ${result.body}");
 
       final role = result.body['data']['loginResult']['role'];
       print("Inside Auth Controller: role is: $role");

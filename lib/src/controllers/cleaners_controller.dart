@@ -19,8 +19,11 @@ class CleanersController extends Basic {
 
       ApiResponse result = await repository.cleaners();
       final list = result.body['data']['cleaners'];
+
       cleanersList.value = Cleaner.fromJsonList(list);
       log(this, 'cleaners list ${list.length}');
+
+      print("List $list");
     } catch (e) {
       log(this, e);
     } finally {

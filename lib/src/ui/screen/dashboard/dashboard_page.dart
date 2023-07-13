@@ -37,6 +37,10 @@ class Dashboard extends GetView<DashboardController> {
       // if .report in any roomsList isNotEmpty then add 1 to notifNumber
 
       controller.getProfile();
+
+      print(
+        "https://the-checkerapp.com:3000/${Pref.to.hotelLogoCheckerVal} This is avatar",
+      );
     }, builder: (_) {
       _.isLoading;
 
@@ -56,12 +60,8 @@ class Dashboard extends GetView<DashboardController> {
                       child: FutureBuilder(
                           future: Utils.getValidatedNetworkImageWidget(
 
-
-
-
-
-                              // "${Route.Routes.baseURL}/${Pref.to.hotelLogoCheckerVal}",
-                              "https://the-checkerapp.com:3000/${Pref.to.hotelLogoCheckerVal}",
+                            "${Route.Routes.baseURL}/${Pref.to.hotelLogoCheckerVal}",
+                            //   "https://the-checkerapp.com:3000/${Pref.to.hotelLogoCheckerVal}",
                               Container()),
                           builder: (context, snapshot) {
                             if (snapshot.hasData) {
@@ -85,9 +85,8 @@ class Dashboard extends GetView<DashboardController> {
                       padding: const EdgeInsets.all(10.0),
                       child: Get.width > 800
                           ? SingleChildScrollView(
-                        scrollDirection: Axis.horizontal,
-
-                            child: Row(
+                              scrollDirection: Axis.horizontal,
+                              child: Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   CleanersBoxView(
@@ -114,7 +113,7 @@ class Dashboard extends GetView<DashboardController> {
                                   )
                                 ],
                               ),
-                          )
+                            )
                           : GridView(
                               shrinkWrap: true,
                               physics: const NeverScrollableScrollPhysics(),
@@ -198,10 +197,7 @@ class Dashboard extends GetView<DashboardController> {
                           Center(
                             child: FutureBuilder(
                                 future: Utils.getValidatedNetworkImageWidget(
-                                  // "${Route.Routes.baseURL}/${Pref.to.userAvatarVal}"
-                                  "${"https://the-checkerapp.com:3000/upload/images/1689070795745.jpeg"}"
-
-                                  ,
+                                  "${Route.Routes.baseURL}/${Pref.to.userAvatarVal}",
                                   const CircleAvatar(
                                     radius: 60,
                                   ),
