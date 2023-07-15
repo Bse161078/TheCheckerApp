@@ -77,8 +77,9 @@ class MainRepository {
       print("${materials[i].name!} ${materials[i].quantity} $supplier");
       var id = materials[i].id;
       var data = {
-        "quantity": int.parse(materials[i].quantity.toString()),
+
         "emailTo": supplier,
+        "quantity": int.parse(materials[i].quantity.toString()),
       };
 
       response = await ServiceProvider.execute(
