@@ -42,35 +42,62 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: FadeAnimation(
-        delay: 1,
-        child: Center(
+
+      body:  Center(
           child: SizedBox(
               width: Get.width / 3,
               child: widget.hotelLogo == null
                   ? Image.asset(
-                      'logo'.toPng,
-                    )
+                'logo'.toPng,
+              )
                   : FutureBuilder(
-                      future: Utils.getValidatedNetworkImageWidget(
-                          "${Route.Routes.baseURL}/${widget.hotelLogo!}",
-                          const CircleAvatar(
-                            radius: 80,
-                          )),
-                      builder: (context, snapshot) {
-                        return snapshot.hasData == true
-                            ? snapshot.data as Widget
-                            : const Center(child: CircularProgressIndicator());
-                      })
-              // CachedNetworkImage(
-              //     imageUrl: "${Route.Routes.baseURL}/${widget.hotelLogo!}",
-              //     placeholder: (context, url) =>
-              //         const Center(child: CircularProgressIndicator()),
-              //     errorWidget: (context, url, error) => Container(),
-              //   ),
-              ),
-        ),
+                  future: Utils.getValidatedNetworkImageWidget(
+                      "${Route.Routes.baseURL}/${widget.hotelLogo!}",
+                      const CircleAvatar(
+                        radius: 80,
+                      )),
+                  builder: (context, snapshot) {
+                    return snapshot.hasData == true
+                        ? snapshot.data as Widget
+                        : const Center(child: CircularProgressIndicator());
+                  })
+            // CachedNetworkImage(
+            //     imageUrl: "${Route.Routes.baseURL}/${widget.hotelLogo!}",
+            //     placeholder: (context, url) =>
+            //         const Center(child: CircularProgressIndicator()),
+            //     errorWidget: (context, url, error) => Container(),
+            //   ),
+          ),
       ),
+      // body: FadeAnimation(
+      //   delay: 1,
+      //   child: Center(
+      //     child: SizedBox(
+      //         width: Get.width / 3,
+      //         child: widget.hotelLogo == null
+      //             ? Image.asset(
+      //                 'logo'.toPng,
+      //               )
+      //             : FutureBuilder(
+      //                 future: Utils.getValidatedNetworkImageWidget(
+      //                     "${Route.Routes.baseURL}/${widget.hotelLogo!}",
+      //                     const CircleAvatar(
+      //                       radius: 80,
+      //                     )),
+      //                 builder: (context, snapshot) {
+      //                   return snapshot.hasData == true
+      //                       ? snapshot.data as Widget
+      //                       : const Center(child: CircularProgressIndicator());
+      //                 })
+      //         // CachedNetworkImage(
+      //         //     imageUrl: "${Route.Routes.baseURL}/${widget.hotelLogo!}",
+      //         //     placeholder: (context, url) =>
+      //         //         const Center(child: CircularProgressIndicator()),
+      //         //     errorWidget: (context, url, error) => Container(),
+      //         //   ),
+      //         ),
+      //   ),
+      // ),
     );
   }
 }

@@ -1,3 +1,5 @@
+
+
 import 'package:checkerapp/src/utils/extension.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -71,8 +73,14 @@ class Btn extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   if(iconData != null)
-                    Icon(iconData, color: iconColor ?? Colors.white).paddingOnly(right: direction == TextDirection.ltr ? 6 : 0, left: direction == TextDirection.rtl ? 6 : 0) ,
-                  Text(label,overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w400, fontSize: 14),),
+                    Icon(iconData, color: iconColor ?? Colors.white).paddingOnly(right: direction == TextDirection.ltr ? 4 : 0, left: direction == TextDirection.rtl ? 4 : 0) ,
+                  SizedBox(
+                    width:80,
+                    child: Text(label,
+                      softWrap: false,
+                      overflow: TextOverflow.clip,
+                      style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w400, fontSize: 14),),
+                  ),
                 ],
               ),
             ),

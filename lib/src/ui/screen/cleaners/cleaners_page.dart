@@ -102,12 +102,11 @@ class _CleanersState extends State<Cleaners> {
                     for (int index = 0;
                         index < controller.filteredCleaners.length;
                         index++)
-                      FadeAnimation(
-                        delay: .15 * index,
-                        child: CleanerAvatar(
+
+                       CleanerAvatar(
                           image: '${controller.filteredCleaners[index].avatar}',
                           name:
-                              '${controller.filteredCleaners[index].fullname}',
+                          '${controller.filteredCleaners[index].fullname}',
                           onTap: () {
                             if (previousRoute
                                 .toString()
@@ -137,7 +136,44 @@ class _CleanersState extends State<Cleaners> {
                             }
                           },
                         ),
-                      ),
+
+
+                      // FadeAnimation(
+                      //   delay: .15 * index,
+                      //   child: CleanerAvatar(
+                      //     image: '${controller.filteredCleaners[index].avatar}',
+                      //     name:
+                      //         '${controller.filteredCleaners[index].fullname}',
+                      //     onTap: () {
+                      //       if (previousRoute
+                      //           .toString()
+                      //           .contains('/dashboard')) {
+                      //         _showDialog(
+                      //           context,
+                      //           controller.filteredCleaners[index],
+                      //         );
+                      //       } else {
+                      //         if (room.status == "IN_PROGRESS") {
+                      //           Get.toNamed(
+                      //             Routes.CHECKLIST,
+                      //             arguments: [
+                      //               room,
+                      //               controller.filteredCleaners[index]
+                      //             ],
+                      //           );
+                      //         } else {
+                      //           Get.toNamed(
+                      //             Routes.CONTINUE_ORDER,
+                      //             arguments: [
+                      //               room,
+                      //               controller.filteredCleaners[index]
+                      //             ],
+                      //           );
+                      //         }
+                      //       }
+                      //     },
+                      //   ),
+                      // ),
                   ],
                 ),
               ),
