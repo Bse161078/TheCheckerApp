@@ -1,20 +1,17 @@
-import 'package:checkerapp/src/utils/widgets/cached_image.dart';
+import 'package:checkerapp/src/network/routes.dart' as Route;
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../data/model/cleaner_model.dart';
-import '../../../data/model/room_model.dart';
-import '../../theme/app_colors.dart';
-import '../../widget/fade_animation.dart';
-import '../../../routes/app_pages.dart';
-import '../../../ui/screen/cleaners/widgets/cleaner_avatar.dart';
 import '../../../../src/controllers/cleaners_controller.dart';
 import '../../../../src/ui/widget/textfield_widget.dart';
 import '../../../../src/utils/utils.dart';
+import '../../../data/model/cleaner_model.dart';
+import '../../../data/model/room_model.dart';
+import '../../../routes/app_pages.dart';
+import '../../../ui/screen/cleaners/widgets/cleaner_avatar.dart';
+import '../../theme/app_colors.dart';
 import '../../widget/button_widget.dart';
-
-import 'package:checkerapp/src/network/routes.dart' as Route;
 
 class Cleaners extends StatefulWidget {
   const Cleaners({Key? key}) : super(key: key);

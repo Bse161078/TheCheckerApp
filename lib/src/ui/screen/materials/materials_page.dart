@@ -1,12 +1,13 @@
-import '../../widget/button_widget.dart';
-import '../../widget/checker.dart';
-import 'widgets/material_row_view.dart';
-import '../../../controllers/materials_controller.dart';
 import 'package:flutter/cupertino.dart';
-import '../../../../src/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../../../../src/utils/utils.dart';
+import '../../../controllers/materials_controller.dart';
+import '../../widget/button_widget.dart';
+import '../../widget/checker.dart';
 import '../../widget/tap_widget.dart';
+import 'widgets/material_row_view.dart';
 
 class Materials extends GetView<MaterialsController> {
   const Materials({super.key});

@@ -1,13 +1,12 @@
 import 'dart:async';
 
-import '../../../../src/ui/widget/fade_animation.dart';
-import '../../../../src/utils/utils.dart';
-import '../../../routes/app_pages.dart';
-import '../../../storage/pref.dart';
+import 'package:checkerapp/src/network/routes.dart' as Route;
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:checkerapp/src/network/routes.dart' as Route;
+import '../../../../src/utils/utils.dart';
+import '../../../routes/app_pages.dart';
+import '../../../storage/pref.dart';
 
 class Splash extends StatefulWidget {
   const Splash({Key? key, this.hotelLogo}) : super(key: key);

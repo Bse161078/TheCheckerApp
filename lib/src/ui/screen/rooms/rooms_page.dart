@@ -1,14 +1,15 @@
-import '../../../data/model/room_model.dart';
-import '../../widget/checker.dart';
-import '../../../../src/ui/screen/rooms/widgets/room_box.dart';
-import '../../../../src/ui/widget/textfield_widget.dart';
 import 'package:flutter/cupertino.dart';
-import '../../../../src/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../../../../src/ui/screen/rooms/widgets/room_box.dart';
+import '../../../../src/ui/widget/textfield_widget.dart';
+import '../../../../src/utils/utils.dart';
 import '../../../controllers/rooms_controller.dart';
+import '../../../data/model/room_model.dart';
 import '../../../routes/app_pages.dart';
 import '../../widget/button_widget.dart';
+import '../../widget/checker.dart';
 import '../../widget/tap_widget.dart';
 import 'widgets/dashline.dart';
 

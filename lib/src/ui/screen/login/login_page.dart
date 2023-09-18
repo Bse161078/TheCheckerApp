@@ -1,13 +1,11 @@
 import 'package:checkerapp/src/ui/widget/tap_widget.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../../../../src/ui/widget/textfield_widget.dart';
 import '../../../../src/utils/utils.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import '../../../../main.dart';
 import '../../../controllers/auth_controller.dart';
-import '../../../routes/app_pages.dart';
 import '../../../storage/locale_pref.dart';
 import '../../widget/button_widget.dart';
 import '../../widget/checker.dart';

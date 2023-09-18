@@ -9,12 +9,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 
-import '../../../routes/app_pages.dart';
 import '../../widget/answer_yes_no_widget.dart';
-import '../../widget/button_widget.dart';
 import '../../widget/checker.dart';
 import '../../widget/tap_widget.dart';
-import '../cleaners/widgets/cleaner_avatar.dart';
 
 class BathroomSection extends GetView<CheckListController>{
 

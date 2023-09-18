@@ -1,19 +1,19 @@
-import '../../../routes/app_pages.dart';
-import '../../widget/button_widget.dart';
-import '../../../utils/utils.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../../../src/controllers/checklist_controller.dart';
 import '../../../data/model/cleaner_model.dart';
 import '../../../data/model/room_model.dart';
+import '../../../routes/app_pages.dart';
+import '../../../utils/utils.dart';
+import '../../widget/button_widget.dart';
 import 'bathroom_section.dart';
-import 'check_menu.dart';
 import 'bed_section.dart';
+import 'check_menu.dart';
 import 'curtains_section.dart';
-import 'shelves_section.dart';
 import 'floor_section.dart';
-import '../../../../src/controllers/checklist_controller.dart';
+import 'shelves_section.dart';
 
 class CheckList extends GetView<CheckListController> {
   late Room room;

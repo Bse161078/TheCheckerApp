@@ -1,5 +1,6 @@
-import '../../src/controllers/basic.dart';
 import 'package:get/get.dart';
+
+import '../../src/controllers/basic.dart';
 import '../data/repository/main_repository.dart';
 
 enum CheckMenuItems { floor, bed, shelves, curtains, bathroom }

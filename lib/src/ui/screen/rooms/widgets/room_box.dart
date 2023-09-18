@@ -3,6 +3,7 @@ import 'package:checkerapp/src/utils/report_notification_getter.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
 import '../../../../../src/utils/utils.dart';
 
 class RoomBox extends StatefulWidget {

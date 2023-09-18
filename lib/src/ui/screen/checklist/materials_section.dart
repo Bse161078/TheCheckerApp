@@ -1,15 +1,11 @@
 
 
 import 'package:checkerapp/src/controllers/checklist_controller.dart';
-import 'package:checkerapp/src/ui/widget/textfield_widget.dart';
 import 'package:checkerapp/src/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../routes/app_pages.dart';
-import '../../widget/button_widget.dart';
 import '../../widget/checker.dart';
-import '../cleaners/widgets/cleaner_avatar.dart';
 
 class MaterialsSection extends GetView<CheckListController>{
 

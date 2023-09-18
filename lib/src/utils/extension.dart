@@ -1,9 +1,9 @@
 import 'dart:io';
 import 'dart:math';
 
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart' as time;
-import 'package:flutter/foundation.dart' show kIsWeb;
 
 
 extension TextExtension on Text {

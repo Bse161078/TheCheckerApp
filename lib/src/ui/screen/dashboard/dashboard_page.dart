@@ -1,26 +1,24 @@
 import 'package:checkerapp/src/controllers/notifications_controller.dart';
+import 'package:checkerapp/src/network/routes.dart' as Route;
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
+import '../../../../src/utils/utils.dart';
 // import 'package:firebase_messaging/firebase_messaging.dart';
 
 import '../../../controllers/cleaners_controller.dart';
+import '../../../controllers/dashboard_controller.dart';
 import '../../../controllers/materials_controller.dart';
 import '../../../controllers/rooms_controller.dart';
-import '../../../utils/widgets/cached_image.dart';
-import 'widget/material_box_view.dart';
-import 'package:flutter/cupertino.dart';
-
+import '../../../routes/app_pages.dart';
 import '../../../storage/pref.dart';
 import '../../widget/button_widget.dart';
 import '../../widget/tap_widget.dart';
 import 'widget/cleaners_box_view.dart';
+import 'widget/material_box_view.dart';
 import 'widget/notification_box_view.dart';
 import 'widget/rooms_box_view.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controllers/dashboard_controller.dart';
-import '../../../../src/utils/utils.dart';
-import '../../../routes/app_pages.dart';
-import 'package:checkerapp/src/network/routes.dart' as Route;
 
 class Dashboard extends GetView<DashboardController> {
   const Dashboard({super.key});

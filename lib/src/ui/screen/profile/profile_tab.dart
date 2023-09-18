@@ -1,11 +1,7 @@
-import 'dart:convert';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 
 import '../../../../src/storage/pref.dart';
-import '../../../../src/ui/screen/profile/widgets/profile_user_2.dart';
 import '../../../../src/ui/theme/app_colors.dart';
 import '../../../controllers/rooms_controller.dart';
 import '../../../routes/app_pages.dart';

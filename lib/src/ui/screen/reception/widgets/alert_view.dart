@@ -1,7 +1,7 @@
-import '../../../../utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../../../utils/utils.dart';
 import '../../../theme/app_colors.dart';
 import '../../../widget/tap_widget.dart';
 

@@ -1,11 +1,10 @@
 import 'package:checkerapp/src/network/response.dart';
 import 'package:checkerapp/src/storage/pref.dart';
 import 'package:checkerapp/src/ui/screen/splash/splash_page.dart';
+import 'package:get/get.dart';
 
 import '../../src/controllers/basic.dart';
 import '../data/repository/main_repository.dart';
-import 'package:get/get.dart';
-
 import '../routes/app_pages.dart';
 import '../utils/utils.dart';
 

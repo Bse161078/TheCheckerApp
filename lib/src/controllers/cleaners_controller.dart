@@ -1,6 +1,7 @@
-import '../data/model/cleaner_model.dart';
-import '../../src/controllers/basic.dart';
 import 'package:get/get.dart';
+
+import '../../src/controllers/basic.dart';
+import '../data/model/cleaner_model.dart';
 import '../data/repository/main_repository.dart';
 import '../network/response.dart';
 import '../utils/logger.dart';

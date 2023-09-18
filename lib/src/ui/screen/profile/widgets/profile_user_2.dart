@@ -1,13 +1,9 @@
 
-import 'dart:convert';
-
 import 'package:checkerapp/src/controllers/rooms_controller.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../../../main.dart';
-import '../../../../routes/app_pages.dart';
-import '../../../../storage/pref.dart';
+
 import '../../../theme/app_colors.dart';
 
 class ProfileUser2 extends GetView<RoomsController> {

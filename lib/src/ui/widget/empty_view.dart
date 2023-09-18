@@ -1,10 +1,9 @@
 
-import '../../../src/utils/extension.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 
-import '../../../main.dart';
+import '../../../src/utils/extension.dart';
 import 'button_widget.dart';
 
 class EmptyView extends StatelessWidget {

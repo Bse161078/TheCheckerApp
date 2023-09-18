@@ -1,8 +1,8 @@
 // ignore_for_file: avoid_print
 
-import '../../src/controllers/basic.dart';
 import 'package:get/get.dart';
 
+import '../../src/controllers/basic.dart';
 import '../data/model/notification_model.dart';
 import '../data/repository/main_repository.dart';
 import '../utils/logger.dart';

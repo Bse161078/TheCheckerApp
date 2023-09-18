@@ -1,12 +1,10 @@
 import 'package:checkerapp/src/ui/widget/tap_widget.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../../../../../../src/utils/utils.dart';
-import 'package:flutter/material.dart';
-
 import '../../../../network/routes.dart';
-import '../../../../utils/widgets/cached_image.dart';
 import '../../../theme/app_colors.dart';
 
 class CleanerAvatar extends StatelessWidget {

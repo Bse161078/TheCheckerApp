@@ -1,6 +1,7 @@
-import '../../../../utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../../../../utils/utils.dart';
 
 /// Created by amir on 10, December, 2022
 

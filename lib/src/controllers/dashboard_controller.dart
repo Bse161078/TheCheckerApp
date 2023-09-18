@@ -1,8 +1,8 @@
 // import 'package:firebase_messaging/firebase_messaging.dart';
 
-import '../../src/controllers/basic.dart';
 import 'package:get/get.dart';
 
+import '../../src/controllers/basic.dart';
 import '../data/repository/main_repository.dart';
 import '../network/response.dart';
 import '../storage/pref.dart';

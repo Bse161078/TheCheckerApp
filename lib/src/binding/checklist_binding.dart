@@ -1,6 +1,7 @@
 
-import '../../../../src/controllers/checklist_controller.dart';
 import 'package:get/get.dart';
+
+import '../../../../src/controllers/checklist_controller.dart';
 import '../data/repository/main_repository.dart';
 
 class CheckListBinding implements Bindings {

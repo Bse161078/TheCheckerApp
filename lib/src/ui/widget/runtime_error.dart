@@ -1,8 +1,8 @@
+import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../../src/utils/utils.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
 
 class RuntimeErrorView extends StatelessWidget {
   final FlutterErrorDetails errorDetails;

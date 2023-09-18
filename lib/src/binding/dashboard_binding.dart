@@ -1,6 +1,7 @@
 
-import '../controllers/dashboard_controller.dart';
 import 'package:get/get.dart';
+
+import '../controllers/dashboard_controller.dart';
 import '../data/repository/main_repository.dart';
 
 class DashboardBinding implements Bindings {

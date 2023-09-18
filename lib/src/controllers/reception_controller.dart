@@ -1,10 +1,11 @@
 // ignore_for_file: avoid_print, unused_local_variable, non_constant_identifier_names
 
 import 'package:dio/dio.dart';
+import 'package:get/get.dart';
+
 // import 'package:firebase_messaging/firebase_messaging.dart';
 
 import '../../src/controllers/basic.dart';
-import 'package:get/get.dart';
 import '../data/model/room_model.dart';
 import '../data/repository/main_repository.dart';
 import '../network/response.dart';

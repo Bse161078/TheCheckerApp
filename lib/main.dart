@@ -9,7 +9,6 @@ import '../src/binding/main_binding.dart';
 import '../src/ui/theme/app_translations.dart';
 import 'src/routes/app_pages.dart';
 import 'src/storage/locale_pref.dart';
-import 'src/storage/pref.dart';
 import 'src/ui/theme/app_theme.dart';
 import 'src/ui/widget/runtime_error.dart';
 import 'src/utils/utils.dart';

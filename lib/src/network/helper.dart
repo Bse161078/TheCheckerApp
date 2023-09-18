@@ -1,7 +1,9 @@
 import 'dart:async';
 import 'dart:convert';
-import '../../src/utils/utils.dart';
+
 import 'package:http/http.dart' as http;
+
+import '../../src/utils/utils.dart';
 import '../storage/pref.dart';
 import 'exception.dart';
 import 'response.dart';

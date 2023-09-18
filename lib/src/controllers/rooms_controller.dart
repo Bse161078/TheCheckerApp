@@ -1,10 +1,9 @@
 // ignore_for_file: avoid_print
 
 import 'package:dio/dio.dart';
-
-import '../../src/controllers/basic.dart';
 import 'package:get/get.dart';
 
+import '../../src/controllers/basic.dart';
 import '../data/model/room_model.dart';
 import '../data/repository/main_repository.dart';
 import '../network/response.dart';

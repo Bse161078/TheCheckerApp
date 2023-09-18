@@ -1,17 +1,16 @@
 // ignore_for_file: non_constant_identifier_names
 
 import 'package:checkerapp/src/controllers/rooms_controller.dart';
-
-import '../../../data/repository/main_repository.dart';
-import '../../../network/response.dart';
-import '../../../routes/app_pages.dart';
-import '../../theme/app_colors.dart';
-import '../../widget/button_widget.dart';
-import '../../../utils/utils.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../../data/repository/main_repository.dart';
+import '../../../network/response.dart';
+import '../../../routes/app_pages.dart';
+import '../../../utils/utils.dart';
+import '../../theme/app_colors.dart';
+import '../../widget/button_widget.dart';
 import '../../widget/tap_widget.dart';
 
 class ContinueOrder extends StatefulWidget {

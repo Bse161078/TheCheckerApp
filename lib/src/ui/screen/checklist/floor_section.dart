@@ -1,9 +1,10 @@
-import '../../../controllers/checklist_controller.dart';
-import 'widgets/add_photos_view.dart';
-import '../../widget/checker.dart';
-import '../../../utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../../../controllers/checklist_controller.dart';
+import '../../../utils/utils.dart';
+import '../../widget/checker.dart';
+import 'widgets/add_photos_view.dart';
 
 class FloorSection extends GetView<CheckListController> {
   TextEditingController controllerReport = TextEditingController();

@@ -1,20 +1,19 @@
-export 'ext/image.dart';
-export 'extension.dart';
-export 'ext/padding.dart';
-export 'logger.dart';
-export 'toast.dart';
-export 'ext/string.dart';
-
 import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:intl/intl.dart';
-
-import 'package:http/http.dart' as http;
 
 import "package:checkerapp/src/utils/logger.dart";
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:http/http.dart' as http;
+import 'package:intl/intl.dart';
+
+export 'ext/image.dart';
+export 'ext/padding.dart';
+export 'ext/string.dart';
+export 'extension.dart';
+export 'logger.dart';
+export 'toast.dart';
 
 class Utils {
   static copy(value) {
